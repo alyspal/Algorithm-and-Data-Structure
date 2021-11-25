@@ -56,7 +56,6 @@ struct Node* rightRotate(struct Node *y)
 	return x;
 }
 
-
 struct Node *leftRotate(struct Node *x)
 {
 	struct Node *y = x->right;
@@ -130,7 +129,6 @@ struct Node * minValueNode(struct Node* node) //cari node minimum di suatu subtr
 
     return current;
 }
-
 
 struct Node* deleteNode(struct Node* root, int deleted_data)
 {
